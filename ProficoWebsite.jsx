@@ -21,7 +21,7 @@ export default function ProficoWebsite() {
     <div className="min-h-screen bg-white text-gray-800 font-sans">
       {/* Header */}
       <header className="bg-white shadow-md p-6 flex justify-between items-center">
-        <img src="/assets/logo_PC_optimized.png" alt="Profico Consulting Logo" className="h-10" />
+        <img src="/assets/logo_PC_optimized.png" alt="Profico Consulting Logo" className="h-20" />
         <nav>
           <ul className="flex gap-6 text-sm">
             <li><a href="/de">DE</a></li>

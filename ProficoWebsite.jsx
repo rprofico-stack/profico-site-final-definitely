@@ -21,7 +21,7 @@ export default function ProficoWebsite() {
     <div className="min-h-screen bg-white text-gray-800 font-sans">
       {/* Header */}
       <header className="bg-white shadow-md p-6 flex justify-between items-center">
-        <img src="logo_PC_optimized.png" alt="Profico Consulting Logo" className="h-12" />
+        <img src="/assets/logo.png" alt="Profico Consulting Logo" className="h-10" />
         <nav>
           <ul className="flex gap-6 text-sm">
             <li><a href="/de">DE</a></li>
@@ -32,7 +32,7 @@ export default function ProficoWebsite() {
 
       {/* Hero Section */}
       <section className="bg-gray-100 py-16 px-6 text-center">
-        <img src="Bild_0009_DSF_7498-Bearbeitet.jpg" alt="Portrait" className="mx-auto rounded-full w-48 h-48 object-cover mb-6 shadow-lg" />
+        <img src="/assets/portrait.jpg" alt="Portrait" className="mx-auto rounded-full w-48 h-48 object-cover mb-6 shadow-lg" />
         <h1 className="text-3xl font-bold">Herzlich willkommen bei Profico Consulting</h1>
         <p className="text-lg mt-4 max-w-2xl mx-auto">
           Ich unterstütze Unternehmen in den Bereichen Führung, Organisation, Digitalisierung und Vertrieb mit maßgeschneiderten Beratungs- und Coaching-Angeboten.

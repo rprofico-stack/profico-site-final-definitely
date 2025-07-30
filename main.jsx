@@ -1,6 +1,10 @@
-import './index.css';                   // ← Styling aktivieren
-import React from 'react';
-import ReactDOM from 'react-dom';
-import ProficoWebsite from './ProficoWebsite.jsx';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import ProficoWebsite from './ProficoWebsite.jsx'
+import './index.css'
 
-ReactDOM.render(<ProficoWebsite />, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <ProficoWebsite />
+  </React.StrictMode>
+)

@@ -83,6 +83,13 @@ export default function ProficoWebsite() {
               className="w-full p-2 border border-gray-300 rounded"
               required
             />
+            <input
+              type="email"
+              name="email"
+              placeholder="E-Mail-Adresse"
+              required
+              className="w-full p-2 border border-gray-300 rounded"
+            />
             <textarea
               name="anfrage"
               placeholder="Art der Anfrage"

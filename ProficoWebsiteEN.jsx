@@ -9,7 +9,7 @@ export default function ProficoWebsiteEN() {
         <img src="logo_PC_optimized.png" alt="Profico Consulting Logo" className="h-12" />
         <nav>
           <ul className="flex gap-6 text-sm">
-            <li><a href="/de">DE</a></li>
+            <li><a href="/">DE</a></li>
             <li><a href="/en">EN</a></li>
           </ul>
         </nav>

@@ -64,7 +64,7 @@ export default function ProficoWebsite() {
       <section id="contact" className="py-12 px-6 max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">Kontakt</h2>
         {!submitted ? (
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form action="https://formspree.io/f/xdkdlwwe" method="POST" className="space-y-4">
             <input
               type="text"
               name="vorname"

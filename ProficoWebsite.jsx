@@ -24,7 +24,7 @@ export default function ProficoWebsite() {
         <img src="/assets/logo_PC_optimized.png" alt="Profico Consulting Logo" className="h-28" />
         <nav>
           <ul className="flex gap-6 text-sm">
-            <li><a href="/de">DE</a></li>
+            <li><a href="/">DE</a></li>
             <li><a href="/en">EN</a></li>
           </ul>
         </nav>
